@@ -22,6 +22,9 @@
       <form class="d-flex" role="button">
         <a class="btn btn-outline-success" type="submit" href="{{('login')}}"><i class="bi bi-person"></i>login</a>
         <a class="btn btn-outline-success" type="submit" href="{{('register')}}"><i class="bi bi-person"></i>register</a>
+        <a class="btn btn-outline-info" href="{{ route('crud.home') }}">
+          Crud
+        </a>
       </form>
     </div>  
   </div>

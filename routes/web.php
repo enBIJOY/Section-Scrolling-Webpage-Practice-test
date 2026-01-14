@@ -15,8 +15,12 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/', function () {
-    return view('crud.index');
+    return view('website.index');
 });
+
+Route::get('/crud/home', function () {
+    return view('crud.home'); // resources/views/crud/home.blade.php
+})->name('crud.home');
 
 Route::middleware([
     'auth:sanctum',
@@ -27,6 +31,13 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+// Route::get('home', [ProductController::class, 'home'])->name('home');
+Route::post('/create', [ProductController::class, 'create'])->name('create');
+Route::get('/show', [ProductController::class, 'show'])->name('show');
+Route::get('edit/{id}', [ProductController::class, 'edit'])->name('edit');
+Route::post('update/{id}', [ProductController::class, 'update'])->name('update');
+Route::delete('delete/{id}', [ProductController::class, 'productDelete'])->name('product.Delete');
+
 
 
 

@@ -25,6 +25,18 @@
         <a class="btn btn-outline-info" href="{{ route('crud.home') }}">
           Crud
         </a>
+        <li>
+          <div class="dropdown">
+            <!-- <button class="btn btn-secondary dropdown-toggle p-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              
+            </button> -->
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href=""> BD</a>
+                <a class="dropdown-item" href=""> EN</a>
+                <a class="dropdown-item" href=""> FR</a>
+              </div>
+          </div>
+        </li>
       </form>
     </div>  
   </div>

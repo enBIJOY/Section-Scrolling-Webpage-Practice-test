@@ -42,14 +42,16 @@
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle p-1" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 @if(session()->get('locale')=='english')
-                  English
+                <img src="{{ asset('flag/united-states.png') }}" alt="English Flag" style="width: 20px; height: 20px;" />
+                  En
                 @else
-                  Bangla
+                <img src="{{ asset('flag/bangladesh.png') }}" alt="English Flag" style="width: 20px; height: 20px;" />
+                  Bn
                 @endif
               </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                  <a class="dropdown-item" href="{{ route('locale', 'bangla')}}"> Bengali</a>
-                  <a class="dropdown-item" href="{{ route('locale', 'english')}}"> English</a>
+                  <a class="dropdown-item" href="{{ route('locale', 'bangla')}}"><img src="{{ asset('flag/bangladesh.png') }}" alt="English Flag" style="width: 20px; height: 20px;" /> Bengali</a>
+                  <a class="dropdown-item" href="{{ route('locale', 'english')}}"><img src="{{ asset('flag/united-states.png') }}" alt="English Flag" style="width: 20px; height: 20px;" /> English</a>
                   <!-- <a class="dropdown-item" href="{{ route('locale', 'France')}}"> Frence</a> -->
                 </div>
             </div>

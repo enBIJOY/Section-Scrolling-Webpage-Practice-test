@@ -18,7 +18,10 @@ Route::get('/', function () {
     return view('website.index');
 });
 
-Route::get('lcl/');
+Route::get('locale/{locale}', function($locale){
+    Session(['locale'=>$locale]);
+    return back();
+})->name('locale');
 
 Route::get('/crud/home', function () {
     return view('crud.home'); // resources/views/crud/home.blade.php

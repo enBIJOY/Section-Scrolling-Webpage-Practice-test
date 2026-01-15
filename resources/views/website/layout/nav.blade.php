@@ -18,6 +18,18 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#contact">contact</a>
         </li>
+        <!-- <li>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </li> -->
       </ul>
       <form class="d-flex" role="button">
         <a class="btn btn-outline-success" type="submit" href="{{('login')}}"><i class="bi bi-person"></i>login</a>
@@ -25,19 +37,23 @@
         <a class="btn btn-outline-info" href="{{ route('crud.home') }}">
           Crud
         </a>
-        <li>
-          <div class="dropdown">
-            <!-- <button class="btn btn-secondary dropdown-toggle p-1" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              
-            </button> -->
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href=""> BD</a>
-                <a class="dropdown-item" href=""> EN</a>
-                <a class="dropdown-item" href=""> FR</a>
-              </div>
-          </div>
-        </li>
       </form>
+      <li>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle p-1" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                @if(session()->get('locale')=='english')
+                  English
+                @else
+                  Bangla
+                @endif
+              </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="{{ route('locale', 'bangla')}}"> Bengali</a>
+                  <a class="dropdown-item" href="{{ route('locale', 'english')}}"> English</a>
+                  <!-- <a class="dropdown-item" href="{{ route('locale', 'France')}}"> Frence</a> -->
+                </div>
+            </div>
+        </li>
     </div>  
   </div>
 </nav>

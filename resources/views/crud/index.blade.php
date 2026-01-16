@@ -2,6 +2,19 @@
 @section('title','CRUD Operation Practice')
 @section('content')
 
+<div class="container-fluid p-5 bg-info">
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
+</div>
+<div class="container my-1 p-5 bg-info">
+    <h1>adsafasfasfasfasdfafas, consectetur adipisicing.</h1>
+</div>
+<div class="container mt-5 pe-0 bg-info">
+    <h1>Lorem sima  asilfa ialafm ipsum dolord consectetur adipisicing.</h1>
+</div>
+
+
+
+
 <div class="container mt-5">
     <div class="row justify-content-center">
         <div class="col-md-6">

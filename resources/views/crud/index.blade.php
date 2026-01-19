@@ -48,6 +48,8 @@
     </div>
 </div>
 
+<!-- grid good practice -->
+
 <div class="container bg-warning mt-4">
     <div class="row">
         <div class="col-12 col-lg-9">
@@ -55,6 +57,41 @@
         </div>
         <div class="col-12 col-lg-3 bg-danger text-center">
             333
+        </div>
+    </div>
+</div>
+
+<!-- nested grid -->
+<div class="container-fluid text-center mt-4 bg-primary">
+    <div class="row">
+        <div class="col-12 col-lg-3">
+            sidebar
+            <p>sidebar</p>
+            sidebar
+            <p>sidebar</p>
+            sidebar
+            sidebar
+            <p>sidebar</p>
+            sidebar
+            <p>sidebar</p>
+            sidebar
+        </div>
+        <div class="col-12 col-lg-9 bg-info">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est error, saepe quod sunt minima ullam esse modi asperiores soluta suscipit. Similique architecto quo sequi nesciunt alias praesentium. At vel laboriosam deleniti molestias autem culpa, doloremque voluptatibus officia fuga quo reprehenderit nihil? Facere, libero maxime. Eveniet fuga ipsam quo quia nam!</p>
+            content
+            <div class="row">
+                <div class="col-12 col-lg-9">
+                content
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sint ea rerum quaerat neque reiciendis magnam officiis itaque possimus facere. Doloremque laborum architecto illo enim, aliquid ea nisi voluptatem iure, harum optio molestiae sequi dolorum suscipit beatae itaque commodi iste. Cum dolores corrupti, officia ex provident sequi minima nihil facere!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae itaque eaque dolorem aspernatur omnis consequuntur quisquam autem ipsum! Fugit, eum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores, perspiciatis adipisci aliquam ullam placeat obcaecati temporibus modi repellendus odit repellat! Aliquid voluptatum necessitatibus quos nulla alias cum voluptatem illum soluta hic accusamus exercitationem iure earum praesentium, eaque temporibus modi sunt nisi, nobis pariatur maiores, ipsum sequi incidunt libero neque.</p>
+                </div>
+                <div class="col-12 col-lg-3 bg-danger">
+                    sidebar2
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid cumque ut quae incidunt ducimus dicta reiciendis, ab sapiente illo?</p>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, explicabo facilis, mollitia perspiciatis qui, iste modi maxime soluta molestiae aperiam nobis alias? Nesciunt eius iure omnis, esse ea deserunt perferendis nisi delectus harum id. Aliquid odit placeat quod. Atque commodi saepe corporis sint amet laboriosam ut soluta nemo odit iusto!</p>
         </div>
     </div>
 </div>

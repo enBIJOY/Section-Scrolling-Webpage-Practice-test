@@ -12,7 +12,7 @@
     <h1>Lorem sima  asilfa ialafm ipsum dolord consectetur adipisicing.</h1>
 </div> -->
 
-<div class="container text-center bg-primary mt-5">
+<!-- <div class="container text-center bg-primary mt-5">
     <div class="row">
         <div class="col">
             grid1
@@ -46,11 +46,11 @@
             333
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- grid good practice -->
 
-<div class="container bg-warning mt-4">
+<!-- <div class="container bg-warning mt-4">
     <div class="row">
         <div class="col-12 col-lg-9">
             333
@@ -59,10 +59,10 @@
             333
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- nested grid -->
-<div class="container-fluid text-center mt-4 bg-primary">
+<!-- <div class="container-fluid text-center mt-4 bg-primary">
     <div class="row">
         <div class="col-12 col-lg-3">
             sidebar
@@ -94,7 +94,93 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, explicabo facilis, mollitia perspiciatis qui, iste modi maxime soluta molestiae aperiam nobis alias? Nesciunt eius iure omnis, esse ea deserunt perferendis nisi delectus harum id. Aliquid odit placeat quod. Atque commodi saepe corporis sint amet laboriosam ut soluta nemo odit iusto!</p>
         </div>
     </div>
+</div> -->
+
+
+<div class="container mt-5 bg-primary">
+    <div class="row align-items-start bg-danger">
+        <div class="col">
+        One of three columns
+        </div>
+        <div class="col">
+            center
+        </div>
+        <div class="col">
+            end
+        </div>
+    </div>
 </div>
+
+<div class="container mt-5 bg-primary">
+    <div class="row align-items-center mb-2">
+        <div class="col">
+        One of three columns
+        </div>  
+    </div>
+</div>
+
+
+<div class="container text-center">
+  <div class="row align-items-start bg-info mb-2" style="height: 150px;">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="row align-items-center bg-info mb-2" style="height: 150px;">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="row align-items-end bg-info mb-2" style="height: 150px;">
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+    <div class="col">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+<!-- self -->
+
+
+<div class="container text-center">
+  <div class="row bg-info"style="height: 150px;">
+    <div class="col align-self-start bg-danger">
+      One of three columns
+    </div>
+    <div class="col align-self-center bg-primary">
+      One of three columns
+    </div>
+    <div class="col align-self-end bg-danger">
+      One of three columns
+    </div>
+  </div>
+</div>
+
+
+
 
 
 

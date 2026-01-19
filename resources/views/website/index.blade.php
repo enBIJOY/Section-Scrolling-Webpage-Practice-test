@@ -50,7 +50,7 @@
             Stay updated with our latest news and offers.
         </p>
 
-        <section class="newsletter mt-4">
+        <section class="newsletter mt-5">
             <div class="row">
                 <div class="col-12">
                     <div class="content text-center">

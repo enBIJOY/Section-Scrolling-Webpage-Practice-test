@@ -1,4 +1,4 @@
-<footer class="py-3 my-4" style=background-color: rgb(174, 200, 242,);> 
+<footer class="py-3 my-5 bg-secondary .text-white" style=background-color: light-green;> 
     <ul class="nav justify-content-center border-bottom pb-3 mb-3"> 
         <li class="nav-item">
             <a href="#home" class="nav-link px-2 text-body-secondary">Home</a>
@@ -10,7 +10,7 @@
             <a href="#pricing" class="nav-link px-2 text-body-secondary">Pricing</a>
         </li> 
         <li class="nav-item">
-            <a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
+            <a href="#home" class="nav-link px-2 text-body-secondary">FAQs</a>
         </li> 
         <li class="nav-item">
             <a href="#about" class="nav-link px-2 text-body-secondary">About</a>

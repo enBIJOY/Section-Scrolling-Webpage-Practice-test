@@ -2,7 +2,7 @@
 @section('title','CRUD Operation Practice')
 @section('content')
 
-<div class="container-fluid p-5 bg-info">
+<!-- <div class="container-fluid p-5 bg-info">
     <h1>Lorem ipsum dolor sit amet, consectetur adipisicing.</h1>
 </div>
 <div class="container my-1 p-5 bg-info">
@@ -10,6 +10,42 @@
 </div>
 <div class="container mt-5 pe-0 bg-info">
     <h1>Lorem sima  asilfa ialafm ipsum dolord consectetur adipisicing.</h1>
+</div> -->
+
+<div class="container text-center bg-primary mt-5">
+    <div class="row">
+        <div class="col">
+            grid1
+        </div>
+        <div class="col">
+            grid2
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid text-center bg-info mt-2">
+    <div class="row">
+        <div class="col-sm-3 bg-danger">
+            grid1
+        </div>
+        <div class="col-sm-6">
+            grid2
+        </div>
+        <div class="col-sm-3 bg-danger">
+            grid3
+        </div>
+    </div>
+</div>
+
+<div class="container bg-warning mt-4">
+    <div class="row">
+        <div class="col-9">
+            333
+        </div>
+        <div class="col-3 bg-info text-center">
+            333
+        </div>
+    </div>
 </div>
 
 

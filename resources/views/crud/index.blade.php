@@ -31,7 +31,7 @@
         <div class="col-sm-6">
             grid2
         </div>
-        <div class="col-sm-3 bg-danger">
+        <div class="col-lg-3 bg-danger">
             grid3
         </div>
     </div>
@@ -48,6 +48,16 @@
     </div>
 </div>
 
+<div class="container bg-warning mt-4">
+    <div class="row">
+        <div class="col-12 col-lg-9">
+            333
+        </div>
+        <div class="col-12 col-lg-3 bg-danger text-center">
+            333
+        </div>
+    </div>
+</div>
 
 
 

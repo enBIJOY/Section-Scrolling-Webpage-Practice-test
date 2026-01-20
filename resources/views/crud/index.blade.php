@@ -97,6 +97,8 @@
 </div> -->
 
 
+
+<!-- Container Practice
 <div class="container mt-5 bg-primary">
     <div class="row align-items-start bg-danger">
         <div class="col">
@@ -160,12 +162,12 @@
       One of three columns
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- self -->
 
 
-<div class="container text-center">
+<!-- <div class="container text-center">
   <div class="row bg-info"style="height: 150px;">
     <div class="col align-self-start bg-danger">
       One of three columns
@@ -177,7 +179,271 @@
       One of three columns
     </div>
   </div>
+</div> -->
+
+
+
+<!-- //Flex -->
+<!-- <div class="container d-flex p-2 bg-danger">
+    This is d-flex container
 </div>
+
+<div class="d-inline-flex bg-danger p-2 my-2">
+    This is d-flex container
+</div>
+<div class="d-inline-flex bg-danger p-2 my-2">
+    This is d-inline-flex container
+</div>
+<div class="d-inline-flex bg-danger p-2 my-2">
+    This is d-flex container
+</div>
+<div class="d-inline-flex bg-danger p-2 my-2">
+    This is d-inline-flex container
+</div>
+
+
+<div class="d-sm-flex bg-danger p-2 my-2">
+    This is d-sm-flex container
+</div>
+<div class="d-sm-flex bg-danger p-2 my-2">
+    This is d-sm-flex container
+</div>
+<div class="d-sm-flex bg-danger p-2 my-2">
+    This is d-sm-flex container
+</div>
+
+
+<div class="d-sm-inline-flex bg-danger p-2 my-2">
+    This is d-sm-inline-flex container
+</div>
+<div class="d-sm-inline-flex bg-danger p-2 my-2">
+    d-sm-inline-flex
+</div>
+<div class="d-sm-inline-flex bg-danger p-2 my-2">
+    This is d-sm-inline-flex container
+</div>
+
+
+
+<div class="d-lg-flex bg-danger p-2 my-2">
+    This is d-lg-flex container
+</div>
+<div class="d-lg-flex bg-danger p-2 my-2">
+    This is d-lg-flex container
+</div>
+<div class="d-lg-flex bg-danger p-2 my-2">
+    This is d-lg-flex container
+</div>
+
+
+
+<div class="d-lg-inline-flex bg-danger p-2 my-2">
+    This is d-lg-inline-flex container
+</div>
+<div class="d-lg-inline-flex bg-danger p-2 my-2">
+    This is d-lg-inline-flex container
+</div>
+<div class="d-lg-inline-flex bg-danger p-2 my-2">
+    This is d-lg-inline-flex container
+</div>
+
+<div class="container bg-info p-5">
+    <div class="d-flex flex-row mb-2 bg-warning">
+        <div class="p-2">box 1</div>
+        <div class="p-2">box 2</div>
+        <div class="p-2">box 3</div>
+    </div>
+    <div class="d-flex flex-row-reverse bg-warning">
+        <div class="p-2">box 1</div>
+        <div class="p-2">box 2</div>
+        <div class="p-2">box 3</div>
+    </div>
+</div>
+
+<div class="container bg-dark p-2">
+    <div class="d-flex flex-column mb-2 text-white">
+        <div class="p-2">box 1</div>
+        <div class="p-2">box 2</div>
+        <div class="p-2">box 3</div>
+    </div>
+    <div class="d-flex flex-column-reverse text-white">
+        <div class="p-2">box 1</div>
+        <div class="p-2">box 2</div>
+        <div class="p-2">box 3</div>
+    </div>
+</div> -->
+
+<!-- justify content -->
+
+<!-- <div class="d-flex justify-content-start p-2 bg-danger m-2">
+    justify content start
+</div>
+<div class="d-flex justify-content-end p-2 bg-info m-2">
+    justify content end
+</div>
+<div class="d-flex justify-content-center p-2 bg-danger m-2">
+    justify content center
+</div>
+<div class="d-flex justify-content-evenly p-2 bg-info m-2">
+    <div class="p-1">justify content evenly</div>
+    <div class="p-1">justify content evenly</div>
+    <div class="p-1">justify content evenly</div>
+</div>
+<div class="d-flex justify-content-between p-2 bg-danger m-2">
+    <div class="p-1">justify content between</div>
+    <div class="p-1">justify content between</div>
+    <div class="p-1">justify content between</div>
+</div>
+<div class="d-flex justify-content-around p-2 bg-info m-2">
+    <div class="p-1">justify content around</div>
+    <div class="p-1">justify content around</div>
+    <div class="p-1">justify content around</div>
+</div>
+<div class="d-flex justify-content-start p-2 bg-danger m-2">
+    justify content start
+</div> -->
+
+
+
+<!-- Align items -->
+ <!-- <div class="py-5 bg-info mt-5">
+  <div class="d-flex align-items-start bg-warning" style="height: 150px;">
+    align items start
+  </div>
+</div>
+
+<div class="d-flex align-items-end p-2 bg-danger my-2" style="height: 150px;">
+  align items end
+</div>
+
+<div class="d-flex align-items-center p-2 bg-info my-2" style="height: 150px;">
+  align items center
+</div>
+
+<div class="d-flex align-items-baseline p-2 bg-danger my-2" style="height: 150px;">
+  <span style="font-size: 12px;">small</span>
+  <span style="font-size: 30px;">BIG</span>
+</div>
+
+<div class="d-flex align-items-stretch p-2 bg-info my-2" style="height: 150px;">
+  <div class="bg-light">stretch</div>
+</div>
+
+একটি box
+text একদম center (X + Y)
+mobile এ column
+desktop এ row
+
+<div class="mt-4 bg-info">
+    <div class="d-flex justify-content-center justify-content-lg-between align-items-center" style="height: 150px;">
+        item center
+    </div>
+</div>
+
+<div class="mt-4 bg-info">
+  <div class="d-flex justify-content-center justify-content-lg-between align-items-center px-3" style="height:150px;">
+    <div class="bg-light p-2">Left</div>
+    <div class="bg-warning p-2">Right</div>
+  </div>
+</div>
+
+
+<div class="mt-4 bg-info">
+  <div class="d-flex 
+              flex-column flex-lg-row
+              justify-content-center 
+              align-items-center"
+       style="height:150px;">
+       
+    <div class="bg-light p-2">Item 1</div>
+    <div class="bg-warning p-2">Item 2</div>
+
+  </div>
+</div>
+
+
+mobile এ center, desktop এ left-right (space-between)
+
+<div class="mt-4 bg-danger">
+    <div class="d-flex
+                flex-column flex-lg-row-start
+                justify-content-center
+                align-items-center"
+            style="height: 150px;">
+        <div class="bg-light p-2">Item 1</div>
+        <div class="bg-warning p-2">Item 2</div>
+    </div>
+</div>
+
+<div class="mt-4 bg-danger">
+  <div class="d-flex
+              flex-column flex-lg-row
+              justify-content-center justify-content-lg-evenly
+              align-items-center
+              px-3"
+       style="height:150px;">
+
+    <div class="bg-light p-2">Item 1</div>
+    <div class="bg-warning p-2">Item 2</div>
+
+  </div>
+</div> -->
+
+
+
+<!-- <div class="container mt-4"> -->
+
+  <!-- Navbar -->
+  <!-- <div class="d-flex justify-content-between align-items-center mb-4">
+    <div class="fw-bold">Mofizul</div>
+    <div class="d-flex gap-3">
+      <a href="#">Home</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+    </div>
+  </div> -->
+
+  <!-- Main layout -->
+  <!-- <div class="row"> -->
+    <!-- Content -->
+    <!-- <div class="col-lg-8"> -->
+      
+      <!-- Card -->
+      <!-- <div class="border p-3 mb-3 d-flex justify-content-between align-items-center">
+        <div>
+          <h5>Project One</h5>
+          <p class="mb-0">Short description</p>
+        </div>
+        <button class="btn btn-primary btn-sm">View</button>
+      </div>
+
+      <div class="border p-3 mb-3 d-flex justify-content-between align-items-center">
+        <div>
+          <h5>Project Two</h5>
+          <p class="mb-0">Short description</p>
+        </div>
+        <button class="btn btn-primary btn-sm">View</button>
+      </div>
+
+    </div> -->
+
+    <!-- Sidebar -->
+    <!-- <div class="col-lg-4">
+      <div class="border p-3">
+        <h5>About Me</h5>
+        <p>Frontend Developer</p>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Footer -->
+  <!-- <div class="d-flex justify-content-center align-items-center mt-4">
+    © 2026 Mofizul
+  </div>
+
+</div> -->
+
+
 
 
 

@@ -444,9 +444,14 @@ mobile এ center, desktop এ left-right (space-between)
 </div> -->
 
 
+Form 
 
-
-
+<form action="">
+    @csrf 
+    <div>
+        Form Data
+    </div>
+</form>
 
 
 

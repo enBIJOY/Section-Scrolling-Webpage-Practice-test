@@ -42,6 +42,8 @@ Route::get('/show', [ProductController::class, 'show'])->name('show');
 Route::get('edit/{id}', [ProductController::class, 'edit'])->name('edit');
 Route::post('update/{id}', [ProductController::class, 'update'])->name('update');
 Route::delete('delete/{id}', [ProductController::class, 'productDelete'])->name('product.Delete');
+Route::post('/newsletter', [ProductController::class, 'newsletter'])->name('newsletter');
+
 
 
 

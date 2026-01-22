@@ -61,4 +61,20 @@ class ProductController extends Controller
         $products->delete($id);
         return back();
     }
+
+    public function newsletter(Request $request)
+    {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email'
+        ]);
+        Product::create([
+            'name' => $request->name,
+            'email' => $request->email
+        ]);
+        return response()->json([
+            'status' => true,
+            'message' => 'Subscribed successfully'
+        ]);
+    }
 }

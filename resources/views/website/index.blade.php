@@ -55,13 +55,42 @@
                 <div class="col-12">
                     <div class="content text-center">
                         <h2 class="mb-4">SUBSCRIBE TO OUR NEWSLETTER</h2>
-
-                        <form>
+                        <form id="newsletterForm">
+                            @csrf
                             <div class="input-group">
-                                <input type="email" class="form-control" placeholder="Enter your email">
-                                <button class="btn btn-primary">Subscribe</button>
+                                <input type="name" class="form-control" placeholder="Enter your name" id="name" required>
                             </div>
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Enter your email" id="email" required>
+                            </div>
+                            <button class="btn btn-primary">Subscribe</button>
                         </form>
+                            <p id="successMsg"></p>
+                            <p id="errorMsg"></p>
+                            <script>
+                                $('#newsletterForm').submit(function(e){
+                                    e.preventDefault(); // 🚫 page reload বন্ধ
+
+                                    $.ajax({
+                                        url: "{{ route('newsletter') }}",
+                                        method: "POST",
+                                        data: {
+                                            name: $('#name').val(),
+                                            email: $('#email').val(),
+                                            _token: "{{ csrf_token() }}"
+                                        },
+                                        success: function(response){
+                                            $('#successMsg').text(response.message);
+                                            $('#errorMsg').text('');
+                                            $('#newsletterForm')[0].reset();
+                                        },
+                                        error: function(xhr){
+                                            $('#errorMsg').text(xhr.responseJSON.message);
+                                            $('#successMsg').text('');
+                                        }
+                                    });
+                                });
+                            </script>
                     </div>
                 </div>
             </div>

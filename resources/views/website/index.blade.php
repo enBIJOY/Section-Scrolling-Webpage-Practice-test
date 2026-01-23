@@ -105,12 +105,12 @@
 </section>
 
 <section id="contact"class="py-5">
-    <h1>Contact Us</h1>
-    <p>Contact section content...</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit animi asperiores explicabo ut voluptatibus culpa molestiae alias cumque a sequi.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus sequi ipsum dolor vero debitis consequuntur quae placeat fuga cupiditate assumenda nam corrupti repudiandae aliquid tenetur quidem architecto autem ex, ipsa distinctio rerum commodi blanditiis! Repellendus facere optio aut saepe ex nostrum officiis, iusto odit inventore rerum eligendi delectus minus cupiditate dolore accusantium! Tenetur, fugiat iure quam nostrum id distinctio vel. Amet esse corrupti, libero assumenda autem qui culpa praesentium, quidem earum, eaque totam. Laboriosam mollitia dolores omnis officiis nisi quas corporis deserunt ipsa similique dignissimos eos dolorem fuga maiores accusantium architecto sunt dicta reiciendis sequi eius natus, pariatur aliquid.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus sequi ipsum dolor vero debitis consequuntur quae placeat fuga cupiditate assumenda nam corrupti repudiandae aliquid tenetur quidem architecto autem ex, ipsa distinctio rerum commodi blanditiis! Repellendus facere optio aut saepe ex nostrum officiis, iusto odit inventore rerum eligendi delectus minus cupiditate dolore accusantium! Tenetur, fugiat iure quam nostrum id distinctio vel. Amet esse corrupti, libero assumenda autem qui culpa praesentium, quidem earum, eaque totam. Laboriosam mollitia dolores omnis officiis nisi quas corporis deserunt ipsa similique dignissimos eos dolorem fuga maiores accusantium architecto sunt dicta reiciendis sequi eius natus, pariatur aliquid.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, officiis?</p>
+    <h1>{{__('Contact Us')}}</h1>
+    <p>{{__('Contact section content...')}}</p>
+    <p>{{__('Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit animi asperiores explicabo ut voluptatibus culpa molestiae alias cumque a sequi.')}}</p>
+    <p>{{__('Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus sequi ipsum dolor vero debitis consequuntur quae placeat fuga cupiditate assumenda nam corrupti repudiandae aliquid tenetur quidem architecto autem ex, ipsa distinctio rerum commodi blanditiis! Repellendus facere optio aut saepe ex nostrum officiis, iusto odit inventore rerum eligendi delectus minus cupiditate dolore accusantium! Tenetur, fugiat iure quam nostrum id distinctio vel. Amet esse corrupti, libero assumenda autem qui culpa praesentium, quidem earum, eaque totam. Laboriosam mollitia dolores omnis officiis nisi quas corporis deserunt ipsa similique dignissimos eos dolorem fuga maiores accusantium architecto sunt dicta reiciendis sequi eius natus, pariatur aliquid.')}}</p>
+    <p>{{__('Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus sequi ipsum dolor vero debitis consequuntur quae placeat fuga cupiditate assumenda nam corrupti repudiandae aliquid tenetur quidem architecto autem ex, ipsa distinctio rerum commodi blanditiis! Repellendus facere optio aut saepe ex nostrum officiis, iusto odit inventore rerum eligendi delectus minus cupiditate dolore accusantium! Tenetur, fugiat iure quam nostrum id distinctio vel. Amet esse corrupti, libero assumenda autem qui culpa praesentium, quidem earum, eaque totam. Laboriosam mollitia dolores omnis officiis nisi quas corporis deserunt ipsa similique dignissimos eos dolorem fuga maiores accusantium architecto sunt dicta reiciendis sequi eius natus, pariatur aliquid.')}}</p>
+    <p>{{__('Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, officiis?')}}</p>
 
     <div class="container col-md-6 mt-5 mb-4">
 
@@ -118,7 +118,7 @@
             Stay updated with our latest news and offers.
         </p>
 
-        <section class="newsletter mt-4">
+        <section class="newsletter mt-5">
             <div class="row">
                 <div class="col-12">
                     <div class="content text-center">

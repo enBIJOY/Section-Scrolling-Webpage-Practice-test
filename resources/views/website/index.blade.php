@@ -5,6 +5,74 @@
 
 <div class="container">
 
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+  <!-- <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div> -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{('img/m1.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-warning">First slide label</h2>
+        <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{('img/m5.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-warning">First slide label</h2>
+        <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{('img/m6.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-warning">First slide label</h2>
+        <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{('img/m7.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-warning">First slide label</h2>
+        <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{('img/m2.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-warning">First slide label</h2>
+        <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{('img/m3.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-warning">First slide label</h2>
+        <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{{('img/m4.jpg')}}" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h2 class="text-warning">First slide label</h2>
+        <p>Some representative placeholder content for the first slide. Some representative for the first slide.<h4>Some representative placeholder</h4> content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 <section id="home"class="py-5">
     <h1>{{__('This is my Home Page')}}</h1>
     <p>{{__('Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit animi asperiores explicabo ut voluptatibus culpa molestiae alias cumque a sequi.')}}</p>

@@ -6,13 +6,13 @@
 <div class="container">
 
 
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+<!-- <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"> -->
   <!-- <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div> -->
-  <div class="carousel-inner">
+  <!-- <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="{{('img/m1.jpg')}}" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
@@ -71,6 +71,12 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+</div> -->
+
+<div class="hero-slider">
+  <div><img src="{{('img/t.jpg')}}"></div>
+  <div><img src="{{('img/tt.jpg')}}"></div>
+  <div><img src="{{('img/ttt.jpg')}}"></div>
 </div>
 
 <section id="home"class="py-5">
@@ -166,6 +172,19 @@
 
     </div>
 
+    @push('slickScript')
+    <script>
+      $(function(){
+        $('.hero-slider').slick({
+          dots:true,
+          arrows:true,
+          fade:true,
+          autoplay:true,
+          autoplaySpeed:2000,
+        })
+      })
+    </script>
+    @endpush
 </section>
 
 </div>

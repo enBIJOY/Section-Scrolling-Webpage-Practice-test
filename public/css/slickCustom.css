@@ -1,13 +1,13 @@
 /* Slick container */
 .hero-slider {
     width: 100%;
-    height: 500px;
+    height: 400px;
     overflow: visible;
 }
 
 /* Slick slide */
 .hero-slider .slick-slide {
-    height: 500px;
+    height: 400px;
 }
 
 /* Slide content (center + full height) */

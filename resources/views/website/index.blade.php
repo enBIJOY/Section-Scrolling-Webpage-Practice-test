@@ -79,7 +79,7 @@
   <div><img src="{{('img/ttt.jpg')}}"></div>
 </div>
 
-<section id="home"class="py-5">
+<section id="home"class="py-3">
     <h1>{{__('This is my Home Page')}}</h1>
     <p>{{__('Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit animi asperiores explicabo ut voluptatibus culpa molestiae alias cumque a sequi.')}}</p>
     <p>{{__('Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae natus officiis ipsam in, aliquam numquam id reiciendis quos, dolor totam fugit voluptates, voluptate fuga iusto. Illum ab consequatur delectus minima accusamus odit perspiciatis unde voluptatum repellendus eius voluptas tempora facilis voluptate rem vel, inventore amet rerum aliquam ratione sed doloremque.')}}</p>

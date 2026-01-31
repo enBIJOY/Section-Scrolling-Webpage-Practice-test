@@ -74,9 +74,9 @@
 </div> -->
 
 <div class="hero-slider">
-  <div><img src="{{('img/t.jpg')}}"></div>
-  <div><img src="{{('img/tt.jpg')}}"></div>
-  <div><img src="{{('img/ttt.jpg')}}"></div>
+  <div><img src="{{asset('img/t.jpg')}}"></div>
+  <div><img src="{{asset('img/tt.jpg')}}"></div>
+  <div><img src="{{asset('img/ttt.jpg')}}"></div>
 </div>
 
 <section id="home"class="py-3">
@@ -176,11 +176,20 @@
     <script>
       $(function(){
         $('.hero-slider').slick({
-          dots:true,
-          arrows:true,
-          fade:true,
-          autoplay:true,
-          autoplaySpeed:2000,
+          // dots:true,
+          // arrows:true,
+          // fade:true,
+          // autoplay:true,
+          // autoplaySpeed:2000,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          speed: 600,             // 👈 smoothness
+          infinite: true,
+          arrows: true,
+          dots: true,
+          cssEase: 'ease-in-out'  // 👈 smooth animation
         })
       })
     </script>
